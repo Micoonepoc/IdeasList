@@ -5,7 +5,7 @@ Ideas List is a simple to-do list created using SwiftUI. This project is my firs
 
 
 
-<img src="https://github.com/Micoonepoc/IdeasList/assets/118993099/da933934-24cc-468b-98fa-56cc21d0f2ed" width="250" height="250"/>
+<img src="https://github.com/Micoonepoc/IdeasList/assets/118993099/da933934-24cc-468b-98fa-56cc21d0f2ed" width="250" height="400"/>
 
 This project leverages the following technologies and tools:
 
