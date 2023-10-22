@@ -1,7 +1,7 @@
 
 Welcome to the Ideas List repository! 
 
-Ideas List is a simple to-do list created using SwiftUI. This project is my first pet-project created with SwiftUI.
+Ideas List is a simple to-do list created using SwiftUI and some new iOS 17 features. This project is my first pet-project created with SwiftUI.
 
 
 
