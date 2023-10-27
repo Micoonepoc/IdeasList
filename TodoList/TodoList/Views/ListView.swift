@@ -1,5 +1,4 @@
 import SwiftUI
-import AVFoundation
 
 struct ListView: View {
     
@@ -16,7 +15,7 @@ struct ListView: View {
                             .onTapGesture(count: 2) {
                                 withAnimation(.spring()) {
                                     listViewModel.updateItem(item: item)
-                                    UIDevice.vibrate()
+                                    HapticManager.shared.notification(type: .success)
                                 }
                             }
                     }
@@ -37,12 +36,6 @@ struct ListView: View {
         })
     }
 
-}
-
-extension UIDevice {
-    static func vibrate() {
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-    }
 }
 
 #Preview {

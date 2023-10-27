@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062BD6712AEBF60B003A8EA3 /* HapticManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062BD6702AEBF60B003A8EA3 /* HapticManagerViewModel.swift */; };
 		0671DCDC2ADDAD6600BF2B7B /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671DCDB2ADDAD6600BF2B7B /* TodoListApp.swift */; };
 		0671DCE32ADDAD6800BF2B7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0671DCE22ADDAD6800BF2B7B /* Preview Assets.xcassets */; };
 		0671DCEB2ADDADD700BF2B7B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0671DCEA2ADDADD700BF2B7B /* ListView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062BD6702AEBF60B003A8EA3 /* HapticManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManagerViewModel.swift; sourceTree = "<group>"; };
 		0671DCD82ADDAD6600BF2B7B /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0671DCDB2ADDAD6600BF2B7B /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		0671DCE22ADDAD6800BF2B7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0671DCF42AE038AB00BF2B7B /* ListViewModel.swift */,
+				062BD6702AEBF60B003A8EA3 /* HapticManagerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062BD6712AEBF60B003A8EA3 /* HapticManagerViewModel.swift in Sources */,
 				0671DCF22ADEA51900BF2B7B /* ItemModel.swift in Sources */,
 				0671DCDC2ADDAD6600BF2B7B /* TodoListApp.swift in Sources */,
 				06CBC3142AE2CA8C004DF007 /* EmptyListView.swift in Sources */,
